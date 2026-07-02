@@ -14,6 +14,7 @@ Alternatively, you can tap the repository first and then install:
 
 ```bash
 brew tap leung-kam-ho/socattui
+brew trust leung-kam-ho/socattui
 brew install socattui
 ```
 
