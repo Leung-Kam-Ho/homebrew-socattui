@@ -3,8 +3,8 @@ class Socattui < Formula
 
   desc "TUI tool for configuring socat USB relay/bridging"
   homepage "https://github.com/Leung-Kam-Ho/SocatTUI"
-  url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "6b561065c4dd95c6e273b3102e0860b600b576f0cd68b959050fb213236f5419"
+  url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "bfe138eecdb5693884ef63da408c8f19afc4c99b73d7ab9963666ea11259e8e5"
 
   depends_on "python@3.12"
 
