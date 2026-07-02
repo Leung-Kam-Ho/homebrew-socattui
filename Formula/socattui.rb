@@ -4,7 +4,7 @@ class Socattui < Formula
   desc "TUI tool for configuring socat USB relay/bridging"
   homepage "https://github.com/Leung-Kam-Ho/SocatTUI"
   url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.2.2.tar.gz"
-  sha256 "8a84b128b421b6411a7d445975c264e2254e7c73ea851dc03560429d4b325fa1"
+  sha256 "5a6934b56417e3b20c7c08ee0f2f1a47ef410ae52ef83254dddf4ead3500cd4c"
 
   bottle do
     root_url "https://github.com/Leung-Kam-Ho/homebrew-socattui/releases/download/socattui-0.2.2"
