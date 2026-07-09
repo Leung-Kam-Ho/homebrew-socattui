@@ -3,14 +3,14 @@ class Socattui < Formula
 
   desc "TUI tool for configuring socat USB relay/bridging"
   homepage "https://github.com/Leung-Kam-Ho/SocatTUI"
-  url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.3.1.tar.gz"
-  sha256 "54b5bf072b19e154ad4d0689f09b5a0b60dea7869781bb86c8cfe5aec8e809f2"
+  url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "731f286089f5b0af28e153c7f3a04c6ff46ec510f591bed3125234f977deca30"
 
   bottle do
-    root_url "https://github.com/Leung-Kam-Ho/homebrew-socattui/releases/download/socattui-0.3.1"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "89b543bef8cded8d4aa9b0de2f0358e271b77b53c4756b4830317ef632abc3c8"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "0f55743d5f32c1f74765ad2168f77c0824c3838c05ca36754b0c8983a51041a6"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "4c2573c0648c852938d2b9fe588afe44371efc9c2e0d62131c8c02c90c7a5fa2"
+    root_url "https://github.com/Leung-Kam-Ho/homebrew-socattui/releases/download/socattui-0.4.1"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "ff973bb6f9da27890916aa95d4346091c65fc1b91da5a4fd5b8d81234335aacb"
+    sha256 cellar: :any_skip_relocation, arm64_linux:  "72280b1acf4ebdaf7fecb006994f7852698631a8f22ca21c95648ca4a446273d"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "b32ab566a550b42dc7edd78315261ccb327b59e0cf8b60979f9c15caf551e8aa"
   end
 
   depends_on "python@3.12"
