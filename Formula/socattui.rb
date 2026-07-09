@@ -4,7 +4,7 @@ class Socattui < Formula
   desc "TUI tool for configuring socat USB relay/bridging"
   homepage "https://github.com/Leung-Kam-Ho/SocatTUI"
   url "https://github.com/Leung-Kam-Ho/SocatTUI/archive/refs/tags/v0.4.2.tar.gz"
-  sha256 "135ad68e3f2af61ca7fdf0dbd91aa11d3910cb363f14b1e500d71f977e71f69d"
+  sha256 "2bb0431dadc2c22ff2ef223ec1118dd0103291d2ff3b7e4cd095afcb0229ace8"
 
   bottle do
     root_url "https://github.com/Leung-Kam-Ho/homebrew-socattui/releases/download/socattui-0.4.2"
@@ -72,6 +72,11 @@ class Socattui < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/c3/b2/bc9c9196916376152d655522fdcebac55e66de6603a76a02bca1b6414f6c/pygments-2.20.0.tar.gz"
     sha256 "6757cd03768053ff99f3039c1a36d6c0aa0b263438fcab17520b30a303a82b5f"
+  end
+
+  resource "pyserial" do
+    url "https://files.pythonhosted.org/packages/1e/7d/ae3f0a63f41e4d2f6cb66a5b57197850f919f59e558159a4dd3a818f5082/pyserial-3.5.tar.gz"
+    sha256 "3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb"
   end
 
   resource "PyYAML" do
