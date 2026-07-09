@@ -8,9 +8,9 @@ class Socattui < Formula
 
   bottle do
     root_url "https://github.com/Leung-Kam-Ho/homebrew-socattui/releases/download/socattui-0.5.1"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "67cd431c83fe56350d8999e860bec4669e32cff49641b4de9e1dc229a67af752"
-    sha256 cellar: :any_skip_relocation, arm64_linux:  "a5dd28cce174c987ff2b48cabdb1bb11bacba08b3f84e14786b40be338cd5753"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "71d13bcbe903ee30fd335013d2fd1e3e427ca144d777488e98eb460566aaf175"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "25db5ce1e66da0c5b783d6dc597b683003379fab7e82d91420acc548663c27b8"
+    sha256 cellar: :any_skip_relocation, arm64_linux:  "63019407e512dee8bfce11b69ce5643e6b1609de05463960f9e9e275ffebd6e5"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e56644302f30949917b63c9f60c9997988ba1cd43029c9500936e3c26737bbd4"
   end
 
   depends_on "python@3.12"
