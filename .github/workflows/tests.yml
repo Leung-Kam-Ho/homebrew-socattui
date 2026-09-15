@@ -10,7 +10,7 @@ jobs:
   test-bot:
     strategy:
       matrix:
-        os: [ macos-14 ]
+        os: [ macos-latest ]
         include:
           - os: ubuntu-latest
             container: ghcr.io/homebrew/brew:main
